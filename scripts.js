@@ -1,7 +1,8 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
-console.log(window.onload)
-
+function(){
+    document.getElementById("spaceShuttleHeight").innerHTML = "Window is loaded.";
+  }
 button.addEventListener("click", function() {
     window.confirm("Confirm that the shuttle is ready for takeoff.");
     let p = document.getElementById("flightStatus");
