@@ -1,16 +1,15 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
-window.onload
+window.onload;
 
 button.addEventListener("click", function() {
     window.confirm("Confirm that the shuttle is ready for takeoff.");
     let p = document.getElementById("flightStatus");
     p.innerHTML = "Shuttle in flight.";
-
-    
-
+    let shuttleScreen = document.getElementById("shuttleBackground");
+    shuttleScreen.style.background = "blue";
 }
-"takeoff");
+
 
 
 
