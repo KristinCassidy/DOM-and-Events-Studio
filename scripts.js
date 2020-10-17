@@ -5,8 +5,10 @@ function takeoff(event) {
 window.confirm("Confirm that the shuttle is ready for takeoff.");
    let p = document.getElementById("flightStatus");
    p.innerHTML = "Shuttle in flight.";
-   shuttleScreen = document.getElementById("shuttleBackground");
+   let shuttleScreen = document.getElementById("shuttleBackground");
    shuttleScreen.style.background = "blue";
+   let height = document.getElementById("spaceShuttleHeight");
+   height.innerHTML += 10,000;
 }
 
                         
