@@ -2,21 +2,18 @@
 // Remember to pay attention to page loading!
 
 function takeoff(event) {
-window.confirm("Confirm that the shuttle is ready for takeoff.");
+   window.confirm("Confirm that the shuttle is ready for takeoff.");
    let p = document.getElementById("flightStatus");
-   p.innerHTML = "Shuttle in flight.";
+      p.innerHTML = "Shuttle in flight.";
    let shuttleScreen = document.getElementById("shuttleBackground");
-   shuttleScreen.style.background = "blue";
+      shuttleScreen.style.background = "blue";
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTML = 10000;
+      height.innerHTML = 10000;
+}
+
+function landing(event) {
+   window.alert("The shuttle is landing. Landing gear engaged."); 
 }
 
                         
 //window.onload 
-
-//when takeoff button is clicked, the following should happen
-//  a. A window confirm should let the user know "Confirm that the shuttle is ready for takeoff." If the shuttle is ready for liftoff, then add parts b-d.
-//  b. The flight status should change to "Shuttle in flight."
-//  c. The background color of the shuttle flight screen (id = "shuttleBackground") should change from green to blue.
-//  d. The shuttle height should increase by 10,000 miles.
-//
