@@ -25,5 +25,9 @@ function landing(event) {
    height.innerHTML = 0;
 }
 
+function abortMission(event) {
+   window.confirm("Confirm that you want to abort the mission.")
+}
+
                         
 //window.onload 
