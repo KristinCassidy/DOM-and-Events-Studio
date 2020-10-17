@@ -41,12 +41,16 @@ function abortMission(event) {
 //   let up = document.getElementsByType("img");
 //   up.style.transformY(5);
 // }
-
-function moveDown(event) {
+upbutton.addEventListener("click", function() {
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTML = 1;
-   let down = document.getElementsByID("rocket");
-   down.style.bottom = 30px;
+   height.innerHTML += 1;
+}
+                          
+//function moveDown(event) {
+//    let height = document.getElementById("spaceShuttleHeight");
+//    height.innerHTML = 1;
+//    let down = document.getElementsByID("rocket");
+//    down.style.bottom = 30px;
   // img.style.padding-top += 2px;
 }
 
