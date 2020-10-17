@@ -6,7 +6,7 @@
 //let p = document.getElementById("flightStatus");
 
 function takeoff(event) {
-   window.confirm("Confirm that the shuttle is ready for takeoff.");
+   result = window.confirm("Confirm that the shuttle is ready for takeoff.");
    let p = document.getElementById("flightStatus");
    let shuttleScreen = document.getElementById("shuttleBackground");
    let height = document.getElementById("spaceShuttleHeight");
