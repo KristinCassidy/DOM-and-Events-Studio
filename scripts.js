@@ -7,8 +7,9 @@
 //};
 
 
-button.addEventListener("click", function takeoff(event) {
-    console.log(window.confirm("Confirm that the shuttle is ready for takeoff."));
+//button.addEventListener("click", 
+function takeoff(event) {
+window.confirm("Confirm that the shuttle is ready for takeoff.");
    // p = document.getElementById("flightStatus");
    //p.innerHTML = "Shuttle in flight.";
     //shuttleScreen = document.getElementById("shuttleBackground");
