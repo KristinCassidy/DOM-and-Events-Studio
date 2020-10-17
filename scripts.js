@@ -44,7 +44,7 @@ function abortMission(event) {
 
 function moveDown(event) {
   let down = document.getElementsByID("rocket");
-  down.style.margin = "10px 0 0 0";
+  down.style = "transform: translate(10)
   // img.style.padding-top += 2px;
 }
 
