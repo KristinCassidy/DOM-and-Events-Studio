@@ -37,10 +37,10 @@ function abortMission(event) {
    }
 }
 
-function moveUp(event) {
-  let up = document.getElementsByType("img");
-  up.style.transformY(5);
-}
+// function moveUp(event) {
+//   let up = document.getElementsByType("img");
+//   up.style.transformY(5);
+// }
 
 function moveDownY(event) {
   let down = document.getElementsByType("img");
@@ -48,15 +48,15 @@ function moveDownY(event) {
   // img.style.padding-top += 2px;
 }
 
-function moveRight(event) {
-  let right = document.getElementsByType("img");
-  right.style.transformY(5);
-}
+// function moveRight(event) {
+//   let right = document.getElementsByType("img");
+//   right.style.transformY(5);
+// }
 
-function moveLeftX(event) {
-  let left = document.getElementsByType("img");
-  left.style.transformY(-5);
-}
+// function moveLeftX(event) {
+//   let left = document.getElementsByType("img");
+//   left.style.transformY(-5);
+// }
 
 
                         
