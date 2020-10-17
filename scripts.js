@@ -46,7 +46,7 @@ function moveDown(event) {
    let height = document.getElementById("spaceShuttleHeight");
    height.innerHTML = 1;
    let down = document.getElementsByID("rocket");
-   down.style.padding = 1;
+   down.style.padding = 10px 0 0 0;
   // img.style.padding-top += 2px;
 }
 
