@@ -8,7 +8,7 @@ window.confirm("Confirm that the shuttle is ready for takeoff.");
    let shuttleScreen = document.getElementById("shuttleBackground");
    shuttleScreen.style.background = "blue";
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTML += 10,000;
+   height.innerHTML += 10000;
 }
 
                         
