@@ -29,9 +29,11 @@ function abortMission(event) {
    result = window.confirm("Confirm that you want to abort the mission.");
    let p = document.getElementById("flightStatus");
    let shuttleScreen = document.getElementById("shuttleBackground");
+   let height = document.getElementById("spaceShuttleHeight");
    if (result == true) {
       p.innerHTML = "Mission aborted.";
       shuttleScreen.style.background = "green";
+      height.innerHTML = 0; 
    }
 }
 
