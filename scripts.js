@@ -43,7 +43,7 @@ function abortMission(event) {
 // }
 
 function moveDown(event) {
-  let down = document.getElementsByType("img");
+  let down = document.getElementsByID("rocket");
   down.style.transform = translate(0,-5);
   // img.style.padding-top += 2px;
 }
