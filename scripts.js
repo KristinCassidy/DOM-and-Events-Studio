@@ -15,8 +15,8 @@ function takeoff(event) {
 function landing(event) {
    window.alert("The shuttle is landing. Landing gear engaged."); 
    p.innerHTML = "The shuttle has landed.";
-   shuttleScreen.style.background = "green";
-   height.innerHTML = 0;
+   //shuttleScreen.style.background = "green";
+  // height.innerHTML = 0;
 }
 
                         
