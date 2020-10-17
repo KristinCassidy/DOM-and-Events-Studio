@@ -43,8 +43,10 @@ function abortMission(event) {
 // }
 
 function moveDown(event) {
-  let down = document.getElementsByID("rocket");
-  down.style = "transform: translate(10)
+   let height = document.getElementById("spaceShuttleHeight");
+   height.innerHTML = 1;
+  //let down = document.getElementsByID("rocket");
+  //down.style = "transform: translate(10)
   // img.style.padding-top += 2px;
 }
 
