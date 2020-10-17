@@ -6,10 +6,5 @@
 }
 
 #rocket {
-    border: 2x;
-    position: relative;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    border: solid 2x;
 }
