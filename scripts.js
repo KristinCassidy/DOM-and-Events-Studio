@@ -33,4 +33,4 @@ function abortMission(event) {
 }
 
                         
-//window.onload 
+window.onload;
