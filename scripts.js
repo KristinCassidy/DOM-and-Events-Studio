@@ -46,7 +46,7 @@ function down(event) {
 }
 
 function right(event) {
-   img.style.transform(2px);
+   img.style.transform(2);
 }
 
 function left(event) {
