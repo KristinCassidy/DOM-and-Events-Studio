@@ -30,7 +30,7 @@ function abortMission(event) {
    let result = window.confirm("Confirm that you want to abort the mission.");
       if (result == true) {
          let p = document.getElementById("flightStatus");
-         p.innerHTML = "The shuttle has landed.";
+         p.innerHTML = "Mission aborted.";
 }
 
                         
