@@ -7,10 +7,9 @@
 
 #rocket {
     border: 2x;
-    transform: rotate(15deg);
     position: relative;
         top: 0;
         bottom: 0;
-        left: 30px;
+        left: 0;
         right: 0;
 }
