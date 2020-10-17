@@ -37,19 +37,20 @@ function abortMission(event) {
    }
 }
 
-function up(event) {
-  //img.style.padding-bottom += 2px;
+function moveUp(event) {
+  let up = document.getElementsByType("img");
+  up.style.transformY(2);
 }
 
-function down(event) {
+function moveDownY(event) {
   // img.style.padding-top += 2px;
 }
 
-function right(event) {
+function moveRight(event) {
    img.style.transformX(2);
 }
 
-function left(event) {
+function moveLeftX(event) {
    //img.style.padding-right += 2px;
 }
 
