@@ -38,11 +38,11 @@ function abortMission(event) {
 }
 
 function up(event) {
-  img.style.padding-bottom += 2px;
+  //img.style.padding-bottom += 2px;
 }
 
 function down(event) {
-   img.style.padding-top += 2px;
+  // img.style.padding-top += 2px;
 }
 
 function right(event) {
@@ -50,7 +50,7 @@ function right(event) {
 }
 
 function left(event) {
-   img.style.padding-right += 2px;
+   //img.style.padding-right += 2px;
 }
 
 
