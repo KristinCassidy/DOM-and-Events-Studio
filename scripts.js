@@ -44,7 +44,7 @@ function abortMission(event) {
 
 function moveDown(event) {
   let down = document.getElementsByType("img");
-  down.style.translateY(-5);
+  down.style.translate(0,-5);
   // img.style.padding-top += 2px;
 }
 
