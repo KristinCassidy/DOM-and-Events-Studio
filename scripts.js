@@ -1,9 +1,6 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
 
-//let height = document.getElementById("spaceShuttleHeight");
-//let shuttleScreen = document.getElementById("shuttleBackground");
-//let p = document.getElementById("flightStatus");
 
 function takeoff(event) {
    result = window.confirm("Confirm that the shuttle is ready for takeoff.");
@@ -39,14 +36,10 @@ function abortMission(event) {
    }
 }
 
-// function moveUp(event) {
-//   let up = document.getElementsByType("img");
-//   up.style.transformY(5);
-// }
-// upbutton.addEventListener("click", function() {
-//    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTML += 1;
-// }
+function moveUp(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   height.innerHTM = 1;
+}
                           
 function moveDown(event) {
    let height = document.getElementById("spaceShuttleHeight");
@@ -56,15 +49,15 @@ function moveDown(event) {
   
 }
 
-// function moveRight(event) {
-//   let right = document.getElementsByType("img");
-//   right.style.transformX(5);
-// }
+function moveRight(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   height.innerHTM = 1;
+}
 
-// function moveLeft(event) {
-//   let left = document.getElementsByType("img");
-//   left.style.transformX(-5);
-// }
+function moveLeft(event) {
+  let height = document.getElementById("spaceShuttleHeight");
+  height.innerHTM = 1;
+}
 
 
                         
