@@ -37,5 +37,22 @@ function abortMission(event) {
    }
 }
 
+function up(event) {
+  img.style.padding-bottom += 2px;
+}
+
+function down(event) {
+   img.style.padding-top += 2px;
+}
+
+function right(event) {
+   img.style.padding-left += 2px;
+}
+
+function left(event) {
+   img.style.padding-right += 2px;
+}
+
+
                         
 //window.onload;
