@@ -48,7 +48,8 @@ function abortMission(event) {
                           
 function moveDown(event) {
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTM += Num(1);
+   let miles = height.innerHTM;
+   Num(miles) += 1;
    //let down = document.getElementsByID("rocket");
    //down.style.top = 10 + 'px';
   
