@@ -31,6 +31,7 @@ function abortMission(event) {
       if (result == true) {
          let p = document.getElementById("flightStatus");
          p.innerHTML = "Mission aborted.";
+      }
 }
 
                         
