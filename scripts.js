@@ -46,7 +46,7 @@ function down(event) {
 }
 
 function right(event) {
-   img.style.padding-left += 2px;
+   img.style.transform(2px);
 }
 
 function left(event) {
