@@ -42,20 +42,20 @@ function abortMission(event) {
 //   up.style.transformY(5);
 // }
 
-function moveDownY(event) {
+function moveDown(event) {
   let down = document.getElementsByType("img");
-  down.style.transformY(-5);
+  down.style.translateY(-5);
   // img.style.padding-top += 2px;
 }
 
 // function moveRight(event) {
 //   let right = document.getElementsByType("img");
-//   right.style.transformY(5);
+//   right.style.transformX(5);
 // }
 
-// function moveLeftX(event) {
+// function moveLeft(event) {
 //   let left = document.getElementsByType("img");
-//   left.style.transformY(-5);
+//   left.style.transformX(-5);
 // }
 
 
