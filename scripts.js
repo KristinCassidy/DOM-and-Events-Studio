@@ -39,19 +39,23 @@ function abortMission(event) {
 
 function moveUp(event) {
   let up = document.getElementsByType("img");
-  up.style.transformY(2);
+  up.style.transformY(5);
 }
 
 function moveDownY(event) {
+  let down = document.getElementsByType("img");
+  down.style.transformY(-5);
   // img.style.padding-top += 2px;
 }
 
 function moveRight(event) {
-   img.style.transformX(2);
+  let right = document.getElementsByType("img");
+  right.style.transformY(5);
 }
 
 function moveLeftX(event) {
-   //img.style.padding-right += 2px;
+  let left = document.getElementsByType("img");
+  left.style.transformY(-5);
 }
 
 
