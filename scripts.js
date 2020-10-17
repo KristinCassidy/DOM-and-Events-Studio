@@ -26,11 +26,10 @@ function landing(event) {
 }
 
 function abortMission(event) {
-   window.confirm("Confirm that you want to abort the mission.");
    let result = window.confirm("Confirm that you want to abort the mission.");
     //  if (result == true) {
-      //   let p = document.getElementById("flightStatus");
-     //    p.innerHTML = "Mission aborted.";
+        let p = document.getElementById("flightStatus");
+        p.innerHTML = "Mission aborted.";
       }
 }
 
