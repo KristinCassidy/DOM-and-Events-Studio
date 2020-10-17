@@ -26,9 +26,9 @@ function landing(event) {
 }
 
 function abortMission(event) {
-   let result = window.confirm("Confirm that you want to abort the mission.");
-   if(result == true) {
-      let p = document.getElementById("flightStatus");
+   result = window.confirm("Confirm that you want to abort the mission.");
+   let p = document.getElementById("flightStatus");
+   if (result == true) {
       p.innerHTML = "Mission aborted.";
    }
 }
