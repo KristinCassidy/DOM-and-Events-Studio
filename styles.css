@@ -9,3 +9,8 @@
     border: solid 2px;
     text-align: center;
 }
+
+#shuttleBackgroundBlock {
+    display: block;
+    padding: 10px;
+}
