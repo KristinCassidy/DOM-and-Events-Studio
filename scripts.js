@@ -38,12 +38,12 @@ function abortMission(event) {
 
 // function moveUp(event) {
 //    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTM = 1;
+//    height.innerHTML = 1;
 // }
                           
 // function moveDown(event) {
 //    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTM = 1;
+//    height.innerHTML = 1;
 //    //let down = document.getElementsByID("rocket");
 //    //down.style.top = 10 + 'px';
   
@@ -51,12 +51,12 @@ function abortMission(event) {
 
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTM = 1;
+   height.innerHTML = 1;
 }
 
 // function moveLeft(event) {
 //   let height = document.getElementById("spaceShuttleHeight");
-//   height.innerHTM = 1;
+//   height.innerHTML = 1;
 // }
 
 
