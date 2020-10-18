@@ -51,7 +51,7 @@ function abortMission(event) {
 
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTML = Num(height.innerHTML);
+   height.innerHTML = Number(height.innerHTML);
    height.innerHTML += 1
 }
 
