@@ -52,7 +52,7 @@ function abortMission(event) {
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
    height.innerHTML = Number(height.innerHTML);
-   height.innerHTML += Number(1);
+   Number(height.innerHTML += 1);
 }
 
 // function moveLeft(event) {
