@@ -51,8 +51,9 @@ function abortMission(event) {
 
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTML = Number(height.innerHTML);
-   Number(height.innerHTML += 1);
+   let miles = Number(height.innerHTML);
+   let move = Number(miles +=1);
+   height.innerHTML = move;
 }
 
 // function moveLeft(event) {
