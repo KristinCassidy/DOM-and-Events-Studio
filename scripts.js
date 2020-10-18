@@ -36,29 +36,29 @@ function abortMission(event) {
    }
 }
 
-function moveUp(event) {
-   let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTM = 1;
-}
+// function moveUp(event) {
+//    let height = document.getElementById("spaceShuttleHeight");
+//    height.innerHTM = 1;
+// }
                           
-function moveDown(event) {
-   let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTM = 1;
-   //let down = document.getElementsByID("rocket");
-   //down.style.top = 10 + 'px';
+// function moveDown(event) {
+//    let height = document.getElementById("spaceShuttleHeight");
+//    height.innerHTM = 1;
+//    //let down = document.getElementsByID("rocket");
+//    //down.style.top = 10 + 'px';
   
-}
+// }
 
-function moveRight(event) {
-   let height = document.getElementById("spaceShuttleHeight");
-   height.innerHTM = 1;
-}
+// function moveRight(event) {
+//    let height = document.getElementById("spaceShuttleHeight");
+//    height.innerHTM = 1;
+// }
 
-function moveLeft(event) {
-  let height = document.getElementById("spaceShuttleHeight");
-  height.innerHTM = 1;
-}
+// function moveLeft(event) {
+//   let height = document.getElementById("spaceShuttleHeight");
+//   height.innerHTM = 1;
+// }
 
 
                         
-window.onload;
+//window.onload;
