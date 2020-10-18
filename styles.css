@@ -3,6 +3,7 @@
     display: inline-block;
     height: 80%;
     width: 40%;
+    position: relative;
 }
 
 #rocket {
@@ -11,9 +12,3 @@
     position: absolute;
 }
 
-#shuttleBackgroundBlock {
-    display: block;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
