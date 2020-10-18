@@ -36,18 +36,19 @@ function abortMission(event) {
    }
 }
 
-// function moveUp(event) {
-//    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTML = 1;
-// }
+function moveUp(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   let miles = Number(height.innerHTML);
+   let move = Number(miles +=1);
+   height.innerHTML = move;
+}
                           
-// function moveDown(event) {
-//    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTML = 1;
-//    //let down = document.getElementsByID("rocket");
-//    //down.style.top = 10 + 'px';
-  
-// }
+function moveDown(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   let miles = Number(height.innerHTML);
+   let move = Number(miles +=1);
+   height.innerHTML = move;
+}
 
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
@@ -56,10 +57,12 @@ function moveRight(event) {
    height.innerHTML = move;
 }
 
-// function moveLeft(event) {
-//   let height = document.getElementById("spaceShuttleHeight");
-//   height.innerHTML = 1;
-// }
+function moveLeft(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   let miles = Number(height.innerHTML);
+   let move = Number(miles +=1);
+   height.innerHTML = move;
+}
 
 
                         
