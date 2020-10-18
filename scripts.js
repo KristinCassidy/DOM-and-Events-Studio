@@ -49,10 +49,10 @@ function abortMission(event) {
   
 // }
 
-// function moveRight(event) {
-//    let height = document.getElementById("spaceShuttleHeight");
-//    height.innerHTM = 1;
-// }
+function moveRight(event) {
+   let height = document.getElementById("spaceShuttleHeight");
+   height.innerHTM = 1;
+}
 
 // function moveLeft(event) {
 //   let height = document.getElementById("spaceShuttleHeight");
