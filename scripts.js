@@ -55,7 +55,7 @@ function moveRight(event) {
    let miles = Number(height.innerHTML);
    let move = Number(miles +=1);
    height.innerHTML = move;
-   document.getElementById("rocket").style.marginLeft += "50px";
+   document.getElementById("rocket").style.marginLeft += "15px";
 }
 
 function moveLeft(event) {
