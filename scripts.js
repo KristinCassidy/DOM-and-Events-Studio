@@ -39,31 +39,25 @@ function abortMission(event) {
 function moveUp(event) {
    let height = document.getElementById("spaceShuttleHeight");
    let miles = Number(height.innerHTML);
-   let move = Number(miles +=1);
+   let move = Number(miles +=10000);
    height.innerHTML = move;
 }
                           
 function moveDown(event) {
    let height = document.getElementById("spaceShuttleHeight");
    let miles = Number(height.innerHTML);
-   let move = Number(miles +=1);
+   let move = Number(miles -=10000);
    height.innerHTML = move;
 }
 
 function moveRight(event) {
-   let height = document.getElementById("spaceShuttleHeight");
-   let miles = Number(height.innerHTML);
-   let move = Number(miles += 1);
-   height.innerHTML = move;
    let margin = document.getElementById("rocket").style.marginLeft;
-   Number(margin += 10px);
+   Number(margin += 10);
 }
 
 function moveLeft(event) {
-   let height = document.getElementById("spaceShuttleHeight");
-   let miles = Number(height.innerHTML);
-   let move = Number(miles +=1);
-   height.innerHTML = move;
+   let margin = document.getElementById("rocket").style.marginRight;
+   margin.attr.value += 10;
 }
 
 
