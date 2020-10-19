@@ -1,6 +1,6 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
-window.onload = (event) => {
+//window.onload = (event) => {
 
    
    function takeoff(event) {
@@ -60,7 +60,7 @@ window.onload = (event) => {
       let position = document.getElementById("rocket").style.positionRight;
       position.attr.value += 10;
    }
-}
+
 
                         
 
