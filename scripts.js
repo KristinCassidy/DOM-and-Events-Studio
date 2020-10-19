@@ -57,7 +57,7 @@ function moveRight(event) {
 
 function moveLeft(event) {
    let position = document.getElementById("rocket").style.positionRight;
-   position.attr.value += 10px;
+   position.attr.value += 10;
 }
 
 
