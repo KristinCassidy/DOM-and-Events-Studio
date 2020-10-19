@@ -54,12 +54,12 @@ let height = document.getElementById("spaceShuttleHeight");
 
    function moveRight(event) {
       let margin = document.getElementById("rocket").style.marginLeft;
-      Number(margin += 10);
+//       Number(margin += 10);
    }
 
    function moveLeft(event) {
       let position = document.getElementById("rocket").style.positionRight;
-      position.attr.value += 10;
+//       position.attr.value += 10;
    }
 }
 
