@@ -57,9 +57,6 @@ function moveRight(event) {
    height.innerHTML = move;
    document.getElementById("rocket").style.objectPosition = "0 0 0 10px";
 }
-function myFunction() {
-  document.getElementById("myImg").style.objectPosition = "0px 10%";
-}
 
 function moveLeft(event) {
    let height = document.getElementById("spaceShuttleHeight");
