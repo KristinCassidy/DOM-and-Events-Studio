@@ -55,6 +55,10 @@ function moveRight(event) {
    let miles = Number(height.innerHTML);
    let move = Number(miles +=1);
    height.innerHTML = move;
+   document.getElementById("rocket").style.objectPosition = "0 0 0 5px";
+}
+function myFunction() {
+  document.getElementById("myImg").style.objectPosition = "0px 10%";
 }
 
 function moveLeft(event) {
