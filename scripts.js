@@ -53,9 +53,10 @@ function moveDown(event) {
 function moveRight(event) {
    let height = document.getElementById("spaceShuttleHeight");
    let miles = Number(height.innerHTML);
-   let move = Number(miles +=1);
+   let move = Number(miles += 1);
    height.innerHTML = move;
-   document.getElementById("rocket").style.marginLeft += "15px";
+   let margin = document.getElementById("rocket").style.marginLeft;
+   margin += 10px;
 }
 
 function moveLeft(event) {
