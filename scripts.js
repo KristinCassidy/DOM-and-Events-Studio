@@ -56,8 +56,8 @@ function moveRight(event) {
 }
 
 function moveLeft(event) {
-   let margin = document.getElementById("rocket").style.marginRight;
-   margin.attr.value += 10;
+   let position = document.getElementById("rocket").style.positionRight;
+   position.attr.value += 10px;
 }
 
 
