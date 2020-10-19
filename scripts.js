@@ -53,12 +53,13 @@
 
    function moveRight(event) {
       let margin = document.getElementById("rocket").style.marginLeft;
-       Number(margin += 10);
    }
 
    function moveLeft(event) {
       let position = document.getElementById("rocket").style.positionRight;
-      position.attr.value += 10;
+      let horipos = Number(position.split('px')[0]);
+      horipos -= 10;
+      position = `${horipos}px`
    }
 
 
