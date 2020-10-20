@@ -7,5 +7,9 @@
 
 #rocket {
     border: solid 2px;
+    position: relative;
+    top: 0px;
+    visability: visable;
+        
 }
 
