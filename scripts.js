@@ -36,6 +36,10 @@
          height.innerHTML = 0; 
       }
    }
+   let rocket = document.getElementById('rocket');
+    rocket.style.position= 'absolute'; 
+    rocket.style.left = '0px'; 
+    rocket.style.bottom = '0px';
 
    function moveUp(event) {
       let height = document.getElementById("spaceShuttleHeight");
