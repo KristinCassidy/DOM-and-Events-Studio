@@ -41,7 +41,7 @@ window.addEventListener("load", function() {
     takeOff.addEventListener("click", function () {
         result = window.confirm("Are you sure the shuttle is ready for takeoff?");
         if (result) {
-            bg.style.backgroundColor = 'blue';
+            bg.style.background = 'blue';
             shuttleHeight.innerHTML = '10000';
             status.innerHTML = "Shuttle in flight";
         }
