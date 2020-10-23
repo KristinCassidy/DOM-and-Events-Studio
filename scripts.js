@@ -51,7 +51,7 @@
       height.innerHTML = move;
    }
 
-   function moveRight(event) {
+   function moveRight() {
       let rocket = document.getElementById("rocket");
       rocket.style.left = parseInt(rocket.style.left) + 10 + 'px';
    }
@@ -59,9 +59,7 @@
    function moveLeft(event) {
       let position = document.getElementById("rocket").style.positionRight;
       
-//       let horipos = Number(position.split('px')[0]);
-//       horipos -= 10;
-//       position = `${horipos}px`
+
    }
 
 //});
