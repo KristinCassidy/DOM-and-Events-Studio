@@ -1,6 +1,6 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
-//window.onload = (event) => {
+window.addEventListener("load", function() { 
 
    
    function takeoff(event) {
@@ -53,7 +53,7 @@
 
    function moveRight(event) {
       let rocket = document.getElementById("rocket");
-      rocket.style.left = parseInt(rocket.style.left) + 10 + "px";
+      rocket.style.left = parseInt(rocket.style.left) + 10 + 'px';
    }
 
    function moveLeft(event) {
@@ -64,6 +64,6 @@
 //       position = `${horipos}px`
    }
 
-
+});
                         
 
