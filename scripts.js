@@ -1,6 +1,6 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
-window.addEventListener("load", function() { 
+//window.addEventListener("load", function() { 
 
    
    function takeoff(event) {
@@ -64,6 +64,6 @@ window.addEventListener("load", function() {
 //       position = `${horipos}px`
    }
 
-});
+//});
                         
 
